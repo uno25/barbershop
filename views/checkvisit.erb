@@ -1,0 +1,15 @@
+
+<h1>Check Visits</h1>
+<form action="/checkvisit" method="post" id="visitform">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Enter your name</label>
+    <input type="text" class="form-control" name="adminname" id="adminname" placeholder="name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Password</label>
+    <input type="password" class="form-control" name="adminpass" id="adminpass" placeholder="pass">
+  </div>
+   <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<br>
+<%= @readvisits %>
